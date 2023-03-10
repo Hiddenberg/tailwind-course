@@ -3,16 +3,16 @@
 @tailwind utilities;
 
 .Card {
-   @apply w-48 h-64 shadow-md rounded-lg flex-none
+   @apply w-48 h-64 shadow-md rounded-lg flex-none transition-all transform hover:-translate-y-4 hover:shadow-xl
 }
 
 .Card__description {
    @apply w-full h-2/5 rounded-b-lg px-4 pt-2 shadow-md
 }
 
-.Card:nth-last-of-type(even) .Card__description {
+.Card:nth-child(even) .Card__description {
    @apply bg-secondary  text-white 
 }
-.Card:nth-last-of-type(odd) .Card__description {
+.Card:nth-child(odd) .Card__description {
    @apply bg-white  text-terciary 
 }
