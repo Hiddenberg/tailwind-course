@@ -16,3 +16,10 @@
 .Card:nth-child(odd) .Card__description {
    @apply bg-white  text-terciary 
 }
+
+.Rent-card__title {
+   @apply text-3xl px-8 pt-8 pb-1 font-semibold text-white
+}
+.Rent-card__description {
+   @apply text-2xl pl-8 text-white mr-24
+}
