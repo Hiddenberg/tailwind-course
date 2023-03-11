@@ -11,10 +11,10 @@
 }
 
 .Card:nth-child(even) .Card__description {
-   @apply bg-secondary  text-white 
+   @apply bg-secondary  text-white dark:bg-gray-700
 }
 .Card:nth-child(odd) .Card__description {
-   @apply bg-white  text-terciary 
+   @apply bg-white  text-terciary dark:text-white dark:bg-gray-600
 }
 
 .Rent-card__title {
